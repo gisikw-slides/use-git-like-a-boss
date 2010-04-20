@@ -2,7 +2,7 @@ author: Kevin W. Gisi
 company: Chicago Code Camp 2&mdash;May 1, 2010<br/>Iowa Code Camp 5&mdash;May 1, 2010
 title: Use Git Like a Boss
 subtitle:
-footer: <a href='http://www.kevingisi.com'>Blog</a> | <a href='http://speakerrate.com/talks/3016-use-git-like-a-boss'>SpeakerRate</a> | <a href="http://github.com/gisikw-slides/use-git-like-a-boss">Source Code</a>
+footer: <a href='http://www.kevingisi.com'>Blog</a> | <a href="http://speakerrate.com/talks/3051-use-git-like-a-boss">SpeakerRate (Chicago)</a> | <a href='http://speakerrate.com/talks/3016-use-git-like-a-boss'>SpeakerRate (Iowa)</a> | <a href="http://github.com/gisikw-slides/use-git-like-a-boss">Source Code</a>
 subfooter: Copyright &copy; 2010 by Kevin W. Gisi
 slides-url: http://gisikw-slides.github.com/use-git-like-a-boss/
 code-engine: uv
