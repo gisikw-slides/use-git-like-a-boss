@@ -12,3 +12,9 @@ code-line-numbers: false
 # Summary
 
 Move out Subversion; there's a new man in town. Learn how a decentralized version control system can help make your workflow easier, regardless of what language you use. We'll walk through how to manage a project using Git, and use some branching, tagging, recovery, and a host of other features along the way. Come see how easy it is to branch and merge without the usual headaches.
+
+# Linus's Take on Source Control
+<img src='images/linus.png'>
+<div class="quote">
+Tarballs are better than CVS
+</div>
