@@ -1,5 +1,5 @@
 author: Kevin W. Gisi
-company: Iowa Code Camp 5&mdash;May 1, 2010
+company: Chicago Code Camp 2&mdash;May 1, 2010<br/>Iowa Code Camp 5&mdash;May 1, 2010
 title: Use Git Like a Boss
 subtitle:
 footer: <a href='http://www.kevingisi.com'>Blog</a> | <a href='http://speakerrate.com/talks/3016-use-git-like-a-boss'>SpeakerRate</a> | <a href="http://github.com/gisikw-slides/use-git-like-a-boss">Source Code</a>
