@@ -569,6 +569,7 @@ function imageScale() {
   }
   var newSize = Math.round(vSize/vScale);
   for (var i = 0; i < images.length; i++) {
+    alert(images[i]);
     images[i].height = newSize; 
   }
 }
