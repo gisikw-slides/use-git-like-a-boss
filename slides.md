@@ -15,7 +15,7 @@ Move out Subversion; there's a new man in town. Learn how a decentralized versio
 
 # Big Day
 
-<iframe src="http://cannonball.heroku.com/" width=90% height=80%></iframe>
+<iframe src="http://cannonball.heroku.com/" width=90% height=100%></iframe>
 
 # Centralized Versioning
 <img src='images/centralized.png'/>
