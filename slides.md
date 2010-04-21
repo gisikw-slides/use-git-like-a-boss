@@ -13,6 +13,10 @@ code-line-numbers: false
 
 Move out Subversion; there's a new man in town. Learn how a decentralized version control system can help make your workflow easier, regardless of what language you use. We'll walk through how to manage a project using Git, and use some branching, tagging, recovery, and a host of other features along the way. Come see how easy it is to branch and merge without the usual headaches.
 
+# Big Day
+
+<iframe src="http://cannonball.heroku.com/" width=90% height=80%></iframe>
+
 # Centralized Versioning
 <img src='images/centralized.png'/>
 <div class="handout">
