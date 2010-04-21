@@ -557,7 +557,7 @@ function imageScale() {
 
   var vScale = 22/14;
 
-  var images = document.getElementsByTagName("img") + document.getElementsByTagName("iframe");
+  var images = document.getElementsByTagName("img").concat(document.getElementsByTagName("iframe"));
   if (window.innerHeight) {
     var vSize = window.innerHeight;
   } else if (document.documentElement.clientHeight) {
