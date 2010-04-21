@@ -557,7 +557,8 @@ function imageScale() {
 
   var vScale = 22/14;
 
-  var images = (document.getElementsByTagName("img")).concat(document.getElementsByTagName("iframe"));
+  var images = document.getElementsByTagName("img");
+  var iframes = document.getElementsByTagName("iframe");
   if (window.innerHeight) {
     var vSize = window.innerHeight;
   } else if (document.documentElement.clientHeight) {
@@ -569,8 +570,10 @@ function imageScale() {
   }
   var newSize = Math.round(vSize/vScale);
   for (var i = 0; i < images.length; i++) {
-    alert(images[i]);
     images[i].height = newSize; 
+  }
+  for(var i = 0; i < iframes.length; i++) {
+    iframes[i].height = newSize;
   }
 }
 
