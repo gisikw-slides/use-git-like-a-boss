@@ -8,7 +8,7 @@ slides-url: http://gisikw-slides.github.com/use-git-like-a-boss/
 code-engine: uv
 code-theme: all_hallows_eve
 code-line-numbers: false
-twitter-search: chicagocodecamp
+twitter-search: cake+OR+pie
 
 # Summary
 
