@@ -32,6 +32,12 @@
     var most_recent_tweet;
     $.getJSON("http://search.twitter.com/search.json?q=iowacodecamp+OR+chicagocodecamp&callback=?",function(data){
       most_recent_tweet = new Date(Date.parse(data["results"][0]["created_at"]));
+      var item = data["results"][0];
+      $.gritter.add({
+        title: "@"+item["from_user"],
+        text: item["text"],
+        image: item["profile_image_url"]
+      });
     });
     setInterval(function(){
       $.getJSON("http://search.twitter.com/search.json?q=iowacodecamp+OR+chicagocodecamp&callback=?",function(data){
