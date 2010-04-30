@@ -28,7 +28,7 @@ I'm going to make you an offer you can't refuse
 # Centralized Versioning
 <img src='images/centralized.png'/>
 
-# Use Git Like a Douglas Reynholm
+# Use Git Like Douglas Reynholm
 <img src='images/reynholm.png'/>
 This is very important. I have a vital meeting to attend, and I've just shot myself in the leg.
 
@@ -40,13 +40,20 @@ Let's talk merger.
 <img src='images/linus.jpg'/>
 I decided I can write something better than anything out there in two weeks. And I was right.
 
+# Basic Git Syntax
+<% code %>
+git init
+git add .
+git commit -am "Initial commit"
+<% end %>
+
 # Distributed Versioning
 <img src='images/distributed.png'/>
 
 # Distributed Versioning
 <img src='images/communism.jpg'/>
 
-# Use Git Like a Mr. Spacely
+# Use Git Like Mr. Spacely
 <img src='images/spacely.jpg'/>
 In the future, we use GitHub!
 
