@@ -64,8 +64,13 @@ git commit -m "Initial commit"
 In the future, we use GitHub!
 
 # Distributed in the Wild
+<img src='images/bratpack.png'/>
+
+# Distributed in the Community
+<img src='images/addedapatow.png'/>
 
 # Distributed in the Office
+<img src='images/pratice.png'/>
 
 # Use Git Like Michael Scott
 <img src='images/scott.jpg'/>
