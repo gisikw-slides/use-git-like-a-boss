@@ -173,6 +173,34 @@ git commit -m <span class="String"><span class="String">&quot;</span>Initial com
 
 </div><div class='slide'>
 
+<h1>Subsequent Commits</h1>
+
+<p>Add then commit:
+<!-- begin code{:lang=>"shell-unix-generic"} --></p>
+
+<pre class='code'>
+<pre class="eiffel">
+git add newfile.txt
+git add trackedfile.txt
+git commit -m <span class="String"><span class="String">&quot;</span>Updated trackedfile, added newfile<span class="String">&quot;</span></span>
+</pre></pre>
+
+<p><!-- end code --></p>
+
+<p>Shorthand:
+<!-- begin code{:lang=>"shell-unix-generic"} --></p>
+
+<pre class='code'>
+<pre class="eiffel">
+git commit -am <span class="String"><span class="String">&quot;</span>Added all change to already-tracked files<span class="String">&quot;</span></span>
+</pre></pre>
+
+<p><!-- end code --></p>
+
+
+
+</div><div class='slide'>
+
 <h1>Distributed Versioning</h1>
 
 <p><img src='images/distributed.png'/></p>
@@ -208,6 +236,12 @@ git clone git://github.com/gisikw-slides/use-git-like-a-boss.git
 </pre></pre>
 
 <p><!-- end code --></p>
+
+
+
+</div><div class='slide'>
+
+<h1>Collaborating with Remotes</h1>
 
 <p>Pull changes:
 <!-- begin code{:lang=>"shell-unix-generic"} --></p>
