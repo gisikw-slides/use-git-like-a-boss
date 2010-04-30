@@ -59,6 +59,20 @@ git commit -m "Initial commit"
 - Security
 - Redundancy
 
+# Grabbing Remote Repositories
+Grab a remote repository:
+<% code do %>
+git clone git://github.com/gisikw-slides/use-git-like-a-boss.git
+<% end %>
+Pull changes:
+<% code do %>
+git pull origin master
+<% end %>
+Push changes
+<% code do %>
+git push origin master
+<% end %>
+
 # Use Git Like Mr. Spacely
 <img src='images/spacely.jpg'/>
 In the future, we use GitHub!
