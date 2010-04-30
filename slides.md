@@ -41,7 +41,7 @@ Let's talk merger.
 I decided I can write something better than anything out there in two weeks. And I was right.
 
 # Basic Git Syntax
-<% code do %>
+<% code :lang => 'text' do %>
 git init
 git add .
 git commit -m "Initial commit"
@@ -61,15 +61,15 @@ git commit -m "Initial commit"
 
 # Grabbing Remote Repositories
 Grab a remote repository:
-<% code do %>
+<% code :lang => 'text' do %>
 git clone git://github.com/gisikw-slides/use-git-like-a-boss.git
 <% end %>
 Pull changes:
-<% code do %>
+<% code :lang => 'text' do %>
 git pull origin master
 <% end %>
 Push changes
-<% code do %>
+<% code :lang => 'text' do %>
 git push origin master
 <% end %>
 
