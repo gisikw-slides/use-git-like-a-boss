@@ -22,9 +22,20 @@ Move out Subversion; there's a new man in town. Learn how a decentralized versio
 <img src='images/godfather.jpg'/>
 I'm going to make you an offer you can't refuse
 
+# Centralized Versioning
+<img src='images/kevins.png'/>
+
 # Use Git Like a Boss
 <img src='images/reynholm.png'/>
 This is very important. I have a vital meeting to attend, and I've just shot myself in the leg.
+
+# Use Git Like a Boss
+<img src='images/trump.jpg'/>
+Let's talk merger.
+
+# Use Git Like a Boss
+<img src='images/kelso.jpg'/>
+Who the hell is responsible?
 
 # Use Git Like a Boss
 <img src='images/scott.jpg'/>
@@ -36,13 +47,4 @@ This is very important. I have a vital meeting to attend, and I've just shot mys
 <img src='images/burns.jpg'/>
 
 # Use Git Like a Boss
-<img src='images/kelso.jpg'/>
-
-# Use Git Like a Boss
-<img src='images/trump.jpg'/>
-
-# Use Git Like a Boss
 <img src='images/spacely.jpg'/>
-
-# Centralized Versioning
-<img src='images/kevins.png'/>
