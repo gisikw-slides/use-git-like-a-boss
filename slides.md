@@ -43,3 +43,6 @@ This is very important. I have a vital meeting to attend, and I've just shot mys
 
 # Use Git Like a Boss
 <img src='images/spacely.jpg'/>
+
+# Centralized Versioning
+<img src='images/kevins.png'/>
