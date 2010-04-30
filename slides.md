@@ -76,6 +76,7 @@ git commit -am "Added all change to already-tracked files"
 Grab a remote repository:
 <% code :lang => 'shell-unix-generic' do %>
 git clone git://github.com/gisikw-slides/use-git-like-a-boss.git
+cd use_git_like_a_boss/
 <% end %>
 
 # Collaborating with Remotes
@@ -105,7 +106,20 @@ In the future, we use GitHub!
 <img src='images/scott.jpg'/>
 They say a cluttered desk means a cluttered mind.
 
-# Corporate Doesn't Like To Adopt Things
+# Feature-Based Branches
+
+- master
+- experimental
+- gh-pages
+- growl_notifications
+- irc_notifications
+- remote_control
+
+# Use Git Like Bill Lumbergh
+<img src='images/lumbergh.jpg'/>
+Actually, given that we can merge instantaneously, I'm not gonna need you to come in on Saturday anymore. Yeah..........
+
+# Corporate Doesn't Adopt
 
 # Use Git Like Bob Kelso
 <img src='images/kelso.jpg'/>
@@ -113,11 +127,19 @@ This is not "Take Your Problems to Work Day". It's just "Work Day"
 
 # Git-SVN
 
-# Feature-Based Branches
-
 # Use Git Like Mr. Burns
 <img src='images/burns.jpg'/>
 This is the type of trickery I pay you for.
 
-# Use Git Like Bill Lumbergh
-<img src='images/lumbergh.jpg'/>
+# Additional Resources
+<img src='images/tsgit.jpg'>
+- <a href='http://pragprog.com/titles/tsgit/pragmatic-version-control-using-git'>Pragmatic Version Control Using Git</a> by Travis Swicegood
+- <a href='http://help.github.com'>http://help.github.com</a>
+- <a href='http://www.gitcasts.com/'>GitCasts</a>
+
+# Questions? Comments?
+<iframe src="http://cannonball.heroku.com/" width=50% height=100%></iframe>
+Thank you!
+
+Kevin W. Gisi
+&lt;<a href='mailto:kevin@kevingisi.com'>kevin@kevingisi.com</a>&gt;
