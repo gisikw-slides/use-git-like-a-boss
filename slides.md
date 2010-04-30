@@ -136,9 +136,6 @@ This is the type of trickery I pay you for.
 - <a href='http://pragprog.com/titles/tsgit/pragmatic-version-control-using-git'>Pragmatic Version Control Using Git</a> by Travis Swicegood
 - <a href='http://help.github.com'>http://help.github.com</a>
 - <a href='http://www.gitcasts.com/'>GitCasts</a>
-
-# Questions? Comments?
-<iframe src="http://cannonball.heroku.com/" width=50% height=100%></iframe>
 Thank you!
 
 Kevin W. Gisi
