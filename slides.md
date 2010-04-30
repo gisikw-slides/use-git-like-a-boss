@@ -18,6 +18,9 @@ Move out Subversion; there's a new man in town. Learn how a decentralized versio
 
 <iframe src="http://cannonball.heroku.com/" width=90% height=100%></iframe>
 
+# Using Git Like a Boss
+<img src='images/boss.jpg'/>
+
 # Centralized Versioning
 <img src='images/centralized.png'/>
 <div class="handout">
