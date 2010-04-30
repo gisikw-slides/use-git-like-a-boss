@@ -70,7 +70,7 @@ In the future, we use GitHub!
 <img src='images/addedapatow.png'/>
 
 # Distributed in the Office
-<img src='images/pratice.png'/>
+<img src='images/practice.png'/>
 
 # Use Git Like Michael Scott
 <img src='images/scott.jpg'/>
