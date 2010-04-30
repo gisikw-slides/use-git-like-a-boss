@@ -6,7 +6,7 @@ footer: <a href='http://www.kevingisi.com'>Blog</a> | <a href="http://speakerrat
 subfooter: Copyright &copy; 2010 by Kevin W. Gisi
 slides-url: http://gisikw-slides.github.com/use-git-like-a-boss/
 code-engine: uv
-code-theme: all_hallows_eve
+code-theme: eiffel
 code-line-numbers: false
 twitter-search: iowacodecamp+OR+chicagocodecamp
 
@@ -44,7 +44,7 @@ I decided I can write something better than anything out there in two weeks. And
 <% code do %>
 git init
 git add .
-git commit -am "Initial commit"
+git commit -m "Initial commit"
 <% end %>
 
 # Distributed Versioning
