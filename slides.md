@@ -18,31 +18,28 @@ Move out Subversion; there's a new man in town. Learn how a decentralized versio
 
 <iframe src="http://cannonball.heroku.com/" width=90% height=100%></iframe>
 
-# Using Git Like a Boss
-<img src='images/boss.jpg'/>
+# Use Git Like a Boss
+<img src='images/godfather.jpg'/>
+I'm going to make you an offer you can't refuse
 
-# Centralized Versioning
-<img src='images/centralized.png'/>
-<div class="handout">
-For some version control systems, the structure is centralized. This means that the code is actually hosted on a single server (or cluster of servers). Clients are able to able to pull down copies of the code, and push back changes, but any branching, merging, committing, is all done on a single versioning server. Subversion is an example of a centralized version control system.
-</div>
+# Use Git Like a Boss
+<img src='images/reynholm.png'/>
+This is very important. I have a vital meeting to attend, and I've just shot myself in the leg.
 
-# Decentralized Versioning
-<img src='images/distributed.png'/>
-<div class="handout">
-Decentralized version control sytems such as Git follow a different philosophy. They, in fact, do away with clients. Instead, users are able to create local repositories, and commit, branch, merge all on their own machine. Once they are satisfied with their changes, they can push their repository's commits to another repository, but there is no requirement that there be any single repository that is considered the "master" repository. This has the added benefit of allowing users to make shorter commit cycles, and use the version control system almost like a word-processor's auto-save tool.
-</div>
+# Use Git Like a Boss
+<img src='images/scott.jpg'/>
 
-# Git in Practice
-<img src='images/practice.png'/>
-<div class="handout">
-While Git is a decentralized system, most users tend to use Git in a hybridized manner - each user has a local repository, but there is also a remote repository that acts as a single point from which all users pull updates and push changes. For many, Github is this shared repository.
-</div>
+# Use Git Like a Boss
+<img src='images/lumbergh.jpg'/>
 
-# Linus's Take on Source Control
-<img src='images/linus.jpg'>
-<div class="quote">
-Tarballs are better than CVS
-</div>
+# Use Git Like a Boss
+<img src='images/burns.jpg'/>
 
-# Feature Branching
+# Use Git Like a Boss
+<img src='images/kelso.jpg'/>
+
+# Use Git Like a Boss
+<img src='images/trump.jpg'/>
+
+# Use Git Like a Boss
+<img src='images/spacely.jpg'/>
