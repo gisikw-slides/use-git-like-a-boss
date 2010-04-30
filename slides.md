@@ -53,6 +53,12 @@ git commit -m "Initial commit"
 # Distributed Versioning
 <img src='images/communism.jpg'/>
 
+- No more tiers
+- Will of the people
+- Accountability
+- Security
+- Redundancy
+
 # Use Git Like Mr. Spacely
 <img src='images/spacely.jpg'/>
 In the future, we use GitHub!
