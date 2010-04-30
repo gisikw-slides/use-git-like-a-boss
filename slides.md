@@ -47,6 +47,19 @@ git add .
 git commit -m "Initial commit"
 <% end %>
 
+# Subsequent Commits
+Add then commit:
+<% code :lang => 'shell-unix-generic' do %>
+git add newfile.txt
+git add trackedfile.txt
+git commit -m "Updated trackedfile, added newfile"
+<% end %>
+
+Shorthand:
+<% code :lang => 'shell-unix-generic' do %>
+git commit -am "Added all change to already-tracked files"
+<% end %>
+
 # Distributed Versioning
 <img src='images/distributed.png'/>
 
@@ -64,6 +77,8 @@ Grab a remote repository:
 <% code :lang => 'shell-unix-generic' do %>
 git clone git://github.com/gisikw-slides/use-git-like-a-boss.git
 <% end %>
+
+# Collaborating with Remotes
 Pull changes:
 <% code :lang => 'shell-unix-generic' do %>
 git pull origin master
