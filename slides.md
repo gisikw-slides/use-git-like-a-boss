@@ -41,7 +41,7 @@ Let's talk merger.
 I decided I can write something better than anything out there in two weeks. And I was right.
 
 # Basic Git Syntax
-<% code %>
+<% code do %>
 git init
 git add .
 git commit -am "Initial commit"
