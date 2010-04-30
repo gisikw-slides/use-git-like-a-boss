@@ -38,7 +38,7 @@ Let's talk merger.
 
 # Use Git Like Linus Torvalds
 <img src='images/linus.jpg'/>
-LOOK UP QUOTE FROM TECH TALK: I COULD WRITE A BETTER SOLUTION IN TWO WEEKS - I WAS RIGHT
+I decided I can write something better than anything out there in two weeks. And I was right.
 
 # Distributed Versioning
 <img src='images/distributed.png'/>
