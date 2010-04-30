@@ -35,7 +35,7 @@ Let's talk merger.
 
 # Use Git Like a Boss
 <img src='images/kelso.jpg'/>
-Who the hell is responsible?
+This is not "Take Your Problems to Work Day". It's just "Work Day"
 
 # Use Git Like a Boss
 <img src='images/scott.jpg'/>
