@@ -119,6 +119,15 @@ git commit -am "Generated slides"
   ...
 <% end %>
 
+# Switching Branches
+<% code :lang => 'shell-unix-generic' do %>
+git checkout master
+  #> Switched to branch "master"
+ls
+  #> slides.md
+  #> Rakefile
+<% end %>
+
 # Use Git Like Michael Scott
 <img src='images/scott.jpg'/>
 They say a cluttered desk means a cluttered mind.
@@ -132,9 +141,18 @@ They say a cluttered desk means a cluttered mind.
 - irc_notifications
 - remote_control
 
+# Merging Branches
+TALK ABOUT MERGING
+
 # Use Git Like Bill Lumbergh
 <img src='images/lumbergh.jpg'/>
 Actually, given that we can merge instantaneously, I'm not gonna need you to come in on Saturday anymore. Yeah..........
+
+# Steal Branches
+MILTON STAPLER
+
+# Stealing Branches
+CODE FOR PULLING BRANCHES DOWN
 
 # Corporate Doesn't Adopt
 <img src='images/smileybob.jpg'/>
@@ -145,6 +163,23 @@ Bob is excited about Git!
 This is not "Take Your Problems to Work Day". It's just "Work Day"
 
 # Git-SVN
+<% code :lang => 'shell-unix-generic' do %>
+git svn clone https://svn.kde.org/home/kde/trunk/kdesupport/strigi
+  #> SCREEN SPAM OF ADDED FILES
+cd strigi
+...
+<% end %>
+
+# Git-SVN
+Push commits to Subversion:
+<% code :lang => 'shell-unix-generic' do %>
+git svn dcommit
+<% end %>
+
+Pull changes from Subversion:
+<% code :lang => 'shell-unix-generic' do %>
+git svn rebase
+<% end %>
 
 # Use Git Like Mr. Burns
 <img src='images/burns.jpg'/>
