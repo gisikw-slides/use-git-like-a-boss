@@ -33,7 +33,7 @@
       time: 8000
     });
     var most_recent_tweet;
-    $.getJSON("http://search.twitter.com/search.json?q=ccc2+OR+gitboss+OR+gisikw&callback=?",function(data){
+    $.getJSON("http://search.twitter.com/search.json?q=chicagocodecamp+OR+gitboss+OR+gisikw&callback=?",function(data){
       most_recent_tweet = new Date(Date.parse(data["results"][0]["created_at"]));
       var item = data["results"][0];
       $.gritter.add({
