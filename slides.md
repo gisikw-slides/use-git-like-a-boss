@@ -103,7 +103,21 @@ In the future, we use GitHub!
 <img src='images/practice.png'/>
 
 # Multiple Working Copies
-<img src='images/cluuter.jpg'/>
+<img src='images/clutter.jpg'/>
+
+# Git Branches
+<% code :lang => 'shell-unix-generic' do %>
+git branch gh-pages
+git checkout gh-pages
+  #> Switched to branch "gh-pages"
+slideshow slides.md
+git commit -am "Generated slides"
+  #> [master 0adc9ff] Generated slides
+  #> 0 files changed, 0 insertions(+), 0 deletions(-)
+  #> create mode 100644 slides.html
+  #> create mode 100644 slides.pdf
+  ...
+<% end %>
 
 # Use Git Like Michael Scott
 <img src='images/scott.jpg'/>
