@@ -141,7 +141,7 @@ They say a cluttered desk means a cluttered mind.
 - irc_notifications
 - remote_control
 
-# Merging Branches
+# Use Git Like Jimmy James
 <img src='images/jimmy.jpg'/>
 You want my advice? Well I'm not going to give it to ya.
 
@@ -239,6 +239,57 @@ git svn rebase
 # Use Git Like Mr. Burns
 <img src='images/burns.jpg'/>
 This is the type of trickery I pay you for.
+
+# Fixing Mistakes
+<% code :lang => 'shell-unix-generic' do %>
+git reset --hard
+  # Discard everything since the last commit
+git reset --hard ORIG_HEAD
+  # Discard the most recent successful merge
+git reset --soft HEAD^
+  # Undo the last commit - keep the changes locally
+git commit --amend
+  # Redo the last commit, with additional changes
+<% end %>
+
+# Oh Yeah, There'...
+
+- .gitignore
+
+- Tagging
+
+- Shashing
+
+- Submodules
+
+- Hooks
+
+# Centralized Culture
+
+The Cathedral:
+
+- Commit when you're done
+
+- Merging is expensive - limit your branching
+
+- Always have server access
+
+- I am the SERVER thy God. Thou shalt have no stranger servers before Me.
+
+# Decentralized Culture
+
+The Bazaar:
+
+- Commit is equivalent to auto-save
+
+- Branch for everything - don't convalute features
+
+- Keep the repository local
+
+- Use external servers as common points, but remember that there is no single "right way" to write code
+
+# Use Git Like the PHB
+<img src='images/pointyhairedboss.png'/>
 
 # Additional Resources
 <img src='images/tsgit.jpg'>
