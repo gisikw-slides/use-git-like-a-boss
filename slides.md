@@ -252,7 +252,7 @@ git commit --amend
   # Redo the last commit, with additional changes
 <% end %>
 
-# Oh Yeah, There'...
+# Oh Yeah, There's...
 
 - .gitignore
 
