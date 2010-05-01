@@ -142,17 +142,55 @@ They say a cluttered desk means a cluttered mind.
 - remote_control
 
 # Merging Branches
-TALK ABOUT MERGING
+<img src='images/jimmy.jpg'/>
+You want my advice? Well I'm not going to give it to ya.
+
+# Merging with Git
+<% code :lang => 'shell-unix-generic' do %>
+git checkout master
+  #> Switched to branch "master"
+git merge experimental
+  #> TODO
+<% end %>
+
+# When Things Go Wrong
+
+CONFLCIT (content): Merge conflict in awesome.rb
+Automatic merge failed; fix conflicts and then commit the result.
+
+# Conflict Files
+<% code :lang => 'ruby' do %>
+class Conference
+  def best_presentation
+<<<<<<< HEAD
+    "Kevin's, of course"
+=======
+    "Ola Bini's talk"
+>>>>>>> 
+<% end %>
 
 # Use Git Like Bill Lumbergh
 <img src='images/lumbergh.jpg'/>
 Actually, given that we can merge instantaneously, I'm not gonna need you to come in on Saturday anymore. Yeah..........
 
 # Steal Branches
-MILTON STAPLER
+<img src='images/stapler.jpg'/>
 
 # Stealing Branches
-CODE FOR PULLING BRANCHES DOWN
+<% code :lang => 'shell-unix-generic' do %>
+git branch --track muwahaha milton/stapler
+  #> Branch muwahaha set up to track remote branch stapler from milton.
+git checkout muwahaha
+  #> Switched to branch 'muwahaha'
+<% end %>
+
+# Pushing and Pulling with Branches
+<% code :lang => 'shell-unix-generic' do %>
+git pull milton stapler
+  #> Pull the stapler branch into the current system
+git push milton stapler
+  #> Push the current system to the stapler branch
+<% end %>
 
 # Corporate Doesn't Adopt
 <img src='images/smileybob.jpg'/>
