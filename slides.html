@@ -394,7 +394,8 @@ You want my advice? Well I'm not going to give it to ya.</p>
 git checkout master
   <span class="Comment"><span class="Comment">#</span>&gt; Switched to branch &quot;master&quot;</span>
 git merge experimental
-  <span class="Comment"><span class="Comment">#</span>&gt; TODO</span>
+  <span class="Comment"><span class="Comment">#</span>&gt; Auto-merging conference.rb</span>
+  <span class="Comment"><span class="Comment">#</span>&gt; Merge made by recursive.</span>
 </pre></pre>
 
 <p><!-- end code --></p>
@@ -405,7 +406,7 @@ git merge experimental
 
 <h1>When Things Go Wrong</h1>
 
-<p>CONFLCIT (content): Merge conflict in awesome.rb
+<p>CONFLCIT (content): Merge conflict in conference.rb
 Automatic merge failed; fix conflicts and then commit the result.</p>
 
 
@@ -425,6 +426,42 @@ Automatic merge failed; fix conflicts and then commit the result.</p>
 <span class="Keyword">===</span><span class="Keyword">===</span><span class="Keyword">=</span>
     <span class="String"><span class="String">&quot;</span>Ola Bini's talk<span class="String">&quot;</span></span>
 <span class="Keyword">&gt;&gt;</span><span class="Keyword">&gt;&gt;</span><span class="Keyword">&gt;&gt;</span><span class="Keyword">&gt;</span> 
+  <span class="Keyword">end</span>
+<span class="Keyword">end</span>
+</pre></pre>
+
+<p><!-- end code --></p>
+
+
+
+</div><div class='slide'>
+
+<h1>Fixed File</h1>
+
+<p><!-- begin code{:lang=>"ruby"} --></p>
+
+<pre class='code'>
+<pre class="eiffel">
+<span class="Keyword">class</span> <span class="TypeName">Conference</span>
+  <span class="Keyword">def</span> <span class="FunctionName">best_presentation</span>
+    <span class="String"><span class="String">&quot;</span>Kevin's, of course<span class="String">&quot;</span></span>
+  <span class="Keyword">end</span>
+<span class="Keyword">end</span>
+</pre></pre>
+
+<p><!-- end code --></p>
+
+
+
+</div><div class='slide'>
+
+<h1>Committing the Fix</h1>
+
+<p><!-- begin code{:lang=>"shell-unix-generic"} --></p>
+
+<pre class='code'>
+<pre class="eiffel">
+git commit -am <span class="String"><span class="String">&quot;</span>Fixed merge conflict, Kevin's presentation is vastly superior<span class="String">&quot;</span></span>
 </pre></pre>
 
 <p><!-- end code --></p>
