@@ -333,6 +333,25 @@ git commit -am <span class="String"><span class="String">&quot;</span>Generated 
 
 </div><div class='slide'>
 
+<h1>Switching Branches</h1>
+
+<p><!-- begin code{:lang=>"shell-unix-generic"} --></p>
+
+<pre class='code'>
+<pre class="eiffel">
+git checkout master
+  <span class="Comment"><span class="Comment">#</span>&gt; Switched to branch &quot;master&quot;</span>
+ls
+  <span class="Comment"><span class="Comment">#</span>&gt; slides.md</span>
+  <span class="Comment"><span class="Comment">#</span>&gt; Rakefile</span>
+</pre></pre>
+
+<p><!-- end code --></p>
+
+
+
+</div><div class='slide'>
+
 <h1>Use Git Like Michael Scott</h1>
 
 <p><img src='images/scott.jpg'/>
@@ -357,10 +376,34 @@ They say a cluttered desk means a cluttered mind.</p>
 
 </div><div class='slide'>
 
+<h1>Merging Branches</h1>
+
+<p>TALK ABOUT MERGING</p>
+
+
+
+</div><div class='slide'>
+
 <h1>Use Git Like Bill Lumbergh</h1>
 
 <p><img src='images/lumbergh.jpg'/>
 Actually, given that we can merge instantaneously, I'm not gonna need you to come in on Saturday anymore. Yeah..........</p>
+
+
+
+</div><div class='slide'>
+
+<h1>Steal Branches</h1>
+
+<p>MILTON STAPLER</p>
+
+
+
+</div><div class='slide'>
+
+<h1>Stealing Branches</h1>
+
+<p>CODE FOR PULLING BRANCHES DOWN</p>
 
 
 
@@ -385,6 +428,44 @@ This is not "Take Your Problems to Work Day". It's just "Work Day"</p>
 </div><div class='slide'>
 
 <h1>Git-SVN</h1>
+
+<p><!-- begin code{:lang=>"shell-unix-generic"} --></p>
+
+<pre class='code'>
+<pre class="eiffel">
+git svn clone https://svn.kde.org/home/kde/trunk/kdesupport/strigi
+  <span class="Comment"><span class="Comment">#</span>&gt; SCREEN SPAM OF ADDED FILES</span>
+cd strigi
+...
+</pre></pre>
+
+<p><!-- end code --></p>
+
+
+
+</div><div class='slide'>
+
+<h1>Git-SVN</h1>
+
+<p>Push commits to Subversion:
+<!-- begin code{:lang=>"shell-unix-generic"} --></p>
+
+<pre class='code'>
+<pre class="eiffel">
+git svn dcommit
+</pre></pre>
+
+<p><!-- end code --></p>
+
+<p>Pull changes from Subversion:
+<!-- begin code{:lang=>"shell-unix-generic"} --></p>
+
+<pre class='code'>
+<pre class="eiffel">
+git svn rebase
+</pre></pre>
+
+<p><!-- end code --></p>
 
 
 
