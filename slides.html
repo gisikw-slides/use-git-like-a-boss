@@ -376,7 +376,7 @@ They say a cluttered desk means a cluttered mind.</p>
 
 </div><div class='slide'>
 
-<h1>Merging Branches</h1>
+<h1>Use Git Like Jimmy James</h1>
 
 <p><img src='images/jimmy.jpg'/>
 You want my advice? Well I'm not going to give it to ya.</p>
@@ -589,6 +589,80 @@ git svn rebase
 
 <p><img src='images/burns.jpg'/>
 This is the type of trickery I pay you for.</p>
+
+
+
+</div><div class='slide'>
+
+<h1>Fixing Mistakes</h1>
+
+<p><!-- begin code{:lang=>"shell-unix-generic"} --></p>
+
+<pre class='code'>
+<pre class="eiffel">
+git reset --hard
+  <span class="Comment"><span class="Comment">#</span> Discard everything since the last commit</span>
+git reset --hard ORIG_HEAD
+  <span class="Comment"><span class="Comment">#</span> Discard the most recent successful merge</span>
+git reset --soft HEAD^
+  <span class="Comment"><span class="Comment">#</span> Undo the last commit - keep the changes locally</span>
+git commit --amend
+  <span class="Comment"><span class="Comment">#</span> Redo the last commit, with additional changes</span>
+</pre></pre>
+
+<p><!-- end code --></p>
+
+
+
+</div><div class='slide'>
+
+<h1>Oh Yeah, There'...</h1>
+
+<ul>
+<li><p>.gitignore</p></li>
+<li><p>Tagging</p></li>
+<li><p>Shashing</p></li>
+<li><p>Submodules</p></li>
+<li><p>Hooks</p></li>
+</ul>
+
+
+
+</div><div class='slide'>
+
+<h1>Centralized Culture</h1>
+
+<p>The Cathedral:</p>
+
+<ul>
+<li><p>Commit when you're done</p></li>
+<li><p>Merging is expensive - limit your branching</p></li>
+<li><p>Always have server access</p></li>
+<li><p>I am the SERVER thy God. Thou shalt have no stranger servers before Me.</p></li>
+</ul>
+
+
+
+</div><div class='slide'>
+
+<h1>Decentralized Culture</h1>
+
+<p>The Bazaar:</p>
+
+<ul>
+<li><p>Commit is equivalent to auto-save</p></li>
+<li><p>Branch for everything - don't convalute features</p></li>
+<li><p>Keep the repository local</p></li>
+<li><p>Use external servers as common points, but remember that there is no single "right way" to write code</p></li>
+</ul>
+
+
+
+</div><div class='slide'>
+
+<h1>Use Git Like the PHB</h1>
+
+<p><img src='images/pointyhairedboss.png'/></p>
 
 
 
