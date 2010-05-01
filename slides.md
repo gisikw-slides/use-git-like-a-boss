@@ -57,7 +57,7 @@ git commit -m "Updated trackedfile, added newfile"
 
 Shorthand:
 <% code :lang => 'shell-unix-generic' do %>
-git commit -am "Added all change to already-tracked files"
+git commit -am "Added all changes to tracked files"
 <% end %>
 
 # Distributed Versioning
@@ -102,6 +102,9 @@ In the future, we use GitHub!
 # Distributed in the Office
 <img src='images/practice.png'/>
 
+# Multiple Working Copies
+<img src='images/cluuter.jpg'/>
+
 # Use Git Like Michael Scott
 <img src='images/scott.jpg'/>
 They say a cluttered desk means a cluttered mind.
@@ -120,6 +123,8 @@ They say a cluttered desk means a cluttered mind.
 Actually, given that we can merge instantaneously, I'm not gonna need you to come in on Saturday anymore. Yeah..........
 
 # Corporate Doesn't Adopt
+<img src='images/smileybob.jpg'/>
+Bob is excited about Git!
 
 # Use Git Like Bob Kelso
 <img src='images/kelso.jpg'/>
