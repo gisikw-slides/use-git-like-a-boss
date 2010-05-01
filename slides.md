@@ -150,12 +150,13 @@ You want my advice? Well I'm not going to give it to ya.
 git checkout master
   #> Switched to branch "master"
 git merge experimental
-  #> TODO
+  #> Auto-merging conference.rb
+  #> Merge made by recursive.
 <% end %>
 
 # When Things Go Wrong
 
-CONFLCIT (content): Merge conflict in awesome.rb
+CONFLCIT (content): Merge conflict in conference.rb
 Automatic merge failed; fix conflicts and then commit the result.
 
 # Conflict Files
@@ -167,6 +168,22 @@ class Conference
 =======
     "Ola Bini's talk"
 >>>>>>> 
+  end
+end
+<% end %>
+
+# Fixed File
+<% code :lang => 'ruby' do %>
+class Conference
+  def best_presentation
+    "Kevin's, of course"
+  end
+end
+<% end %>
+
+# Committing the Fix
+<% code :lang => 'shell-unix-generic' do %>
+git commit -am "Fixed merge conflict, Kevin's presentation is vastly superior"
 <% end %>
 
 # Use Git Like Bill Lumbergh
