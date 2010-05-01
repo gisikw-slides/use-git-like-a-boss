@@ -378,7 +378,56 @@ They say a cluttered desk means a cluttered mind.</p>
 
 <h1>Merging Branches</h1>
 
-<p>TALK ABOUT MERGING</p>
+<p><img src='images/jimmy.jpg'/>
+You want my advice? Well I'm not going to give it to ya.</p>
+
+
+
+</div><div class='slide'>
+
+<h1>Merging with Git</h1>
+
+<p><!-- begin code{:lang=>"shell-unix-generic"} --></p>
+
+<pre class='code'>
+<pre class="eiffel">
+git checkout master
+  <span class="Comment"><span class="Comment">#</span>&gt; Switched to branch &quot;master&quot;</span>
+git merge experimental
+  <span class="Comment"><span class="Comment">#</span>&gt; TODO</span>
+</pre></pre>
+
+<p><!-- end code --></p>
+
+
+
+</div><div class='slide'>
+
+<h1>When Things Go Wrong</h1>
+
+<p>CONFLCIT (content): Merge conflict in awesome.rb
+Automatic merge failed; fix conflicts and then commit the result.</p>
+
+
+
+</div><div class='slide'>
+
+<h1>Conflict Files</h1>
+
+<p><!-- begin code{:lang=>"ruby"} --></p>
+
+<pre class='code'>
+<pre class="eiffel">
+<span class="Keyword">class</span> <span class="TypeName">Conference</span>
+  <span class="Keyword">def</span> <span class="FunctionName">best_presentation</span>
+<span class="Keyword">&lt;&lt;</span><span class="Keyword">&lt;&lt;</span><span class="Keyword">&lt;&lt;</span><span class="Keyword">&lt;</span> <span class="Variable">HEAD</span>
+    <span class="String"><span class="String">&quot;</span>Kevin's, of course<span class="String">&quot;</span></span>
+<span class="Keyword">===</span><span class="Keyword">===</span><span class="Keyword">=</span>
+    <span class="String"><span class="String">&quot;</span>Ola Bini's talk<span class="String">&quot;</span></span>
+<span class="Keyword">&gt;&gt;</span><span class="Keyword">&gt;&gt;</span><span class="Keyword">&gt;&gt;</span><span class="Keyword">&gt;</span> 
+</pre></pre>
+
+<p><!-- end code --></p>
 
 
 
@@ -395,7 +444,7 @@ Actually, given that we can merge instantaneously, I'm not gonna need you to com
 
 <h1>Steal Branches</h1>
 
-<p>MILTON STAPLER</p>
+<p><img src='images/stapler.jpg'/></p>
 
 
 
@@ -403,7 +452,35 @@ Actually, given that we can merge instantaneously, I'm not gonna need you to com
 
 <h1>Stealing Branches</h1>
 
-<p>CODE FOR PULLING BRANCHES DOWN</p>
+<p><!-- begin code{:lang=>"shell-unix-generic"} --></p>
+
+<pre class='code'>
+<pre class="eiffel">
+git branch --track muwahaha milton/stapler
+  <span class="Comment"><span class="Comment">#</span>&gt; Branch muwahaha set up to track remote branch stapler from milton.</span>
+git checkout muwahaha
+  <span class="Comment"><span class="Comment">#</span>&gt; Switched to branch 'muwahaha'</span>
+</pre></pre>
+
+<p><!-- end code --></p>
+
+
+
+</div><div class='slide'>
+
+<h1>Pushing and Pulling with Branches</h1>
+
+<p><!-- begin code{:lang=>"shell-unix-generic"} --></p>
+
+<pre class='code'>
+<pre class="eiffel">
+git pull milton stapler
+  <span class="Comment"><span class="Comment">#</span>&gt; Pull the stapler branch into the current system</span>
+git push milton stapler
+  <span class="Comment"><span class="Comment">#</span>&gt; Push the current system to the stapler branch</span>
+</pre></pre>
+
+<p><!-- end code --></p>
 
 
 
