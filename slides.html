@@ -43,7 +43,7 @@
       });
     });
     setInterval(function(){
-      $.getJSON("http://search.twitter.com/search.json?q=iowacodecamp+OR+chicagocodecamp&callback=?",function(data){
+    $.getJSON("http://search.twitter.com/search.json?q=chicagocodecamp+OR+gitboss+OR+gisikw&callback=?",function(data){
         $.each(data["results"],function(i,item){
           if((new Date(Date.parse(item["created_at"])))>most_recent_tweet){
             $.gritter.add({
