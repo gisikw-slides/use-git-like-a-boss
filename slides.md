@@ -167,7 +167,7 @@ class Conference
     "Kevin's, of course"
 =======
     "Ola Bini's talk"
->>>>>>> 
+>>>>>>> experimental
   end
 end
 <% end %>
@@ -201,7 +201,7 @@ git checkout muwahaha
   #> Switched to branch 'muwahaha'
 <% end %>
 
-# Pushing and Pulling with Branches
+# Pushing and Pulling Branches
 <% code :lang => 'shell-unix-generic' do %>
 git pull milton stapler
   #> Pull the stapler branch into the current system
