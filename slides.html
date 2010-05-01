@@ -33,7 +33,7 @@
       time: 8000
     });
     var most_recent_tweet;
-    $.getJSON("http://search.twitter.com/search.json?q=chicagocodecamp+OR+gitboss+OR+gisikw&callback=?",function(data){
+    $.getJSON("http://search.twitter.com/search.json?q=iowacodecamp+OR+gitboss+OR+gisikw&callback=?",function(data){
       most_recent_tweet = new Date(Date.parse(data["results"][0]["created_at"]));
       var item = data["results"][0];
       $.gritter.add({
@@ -43,7 +43,7 @@
       });
     });
     setInterval(function(){
-    $.getJSON("http://search.twitter.com/search.json?q=chicagocodecamp+OR+gitboss+OR+gisikw&callback=?",function(data){
+    $.getJSON("http://search.twitter.com/search.json?q=iowacodecamp+OR+gitboss+OR+gisikw&callback=?",function(data){
         $.each(data["results"],function(i,item){
           if((new Date(Date.parse(item["created_at"])))>most_recent_tweet){
             $.gritter.add({
